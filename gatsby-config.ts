@@ -1,5 +1,5 @@
 import type { GatsbyConfig } from "gatsby";
-
+import path from "path";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `IIT Tutor Site`,
@@ -26,7 +26,16 @@ const config: GatsbyConfig = {
       "path": "./src/images/"
     },
     __key: "images"
-  }]
+  }, 'gatsby-plugin-postcss',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ]
 };
 
 export default config;
