@@ -3,7 +3,7 @@ import {OurServiceInterface} from "../interfaces/our-service-interface";
 export const OurServices: OurServiceInterface[] = [
     {
         packageName: "Bimbingan Privat",
-        price: "140.000",
+        price: "150.000",
         measurement: "pertemuan / orang",
         hyperlink:"#",
         buttonText: "Coming Soon",
@@ -30,7 +30,7 @@ export const OurServices: OurServiceInterface[] = [
     },
     {
         packageName: "Bimbel IIT !!!!",
-        price: "40.000",
+        price: "35.000",
         measurement: "orang",
         hyperlink:"https://forms.gle/JG6rTa1WBNvKo5P89",
         buttonText: "Daftar Sekarang!",
