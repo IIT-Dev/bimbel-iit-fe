@@ -32,7 +32,7 @@ export const OurServices: OurServiceInterface[] = [
         packageName: "Bimbel IIT !!!!",
         price: "40.000",
         measurement: "orang",
-        hyperlink:"#",
+        hyperlink:"https://forms.gle/JG6rTa1WBNvKo5P89",
         buttonText: "Daftar Sekarang!",
         buttonEnabled: true,
         benefit : [
@@ -47,7 +47,7 @@ export const OurServices: OurServiceInterface[] = [
         packageName: "Custom Lessons",
         price: "-",
         measurement: "-",
-        hyperlink:"#",
+        hyperlink:"https://wa.me/0895420592600?text=Halo%20saya%20mau%20request%20untuk%20tutor%2Fpengajaran",
         buttonText: "Hubungi Kami",
         buttonEnabled: true,
         benefit : [

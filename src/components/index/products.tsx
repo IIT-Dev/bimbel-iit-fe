@@ -154,7 +154,7 @@ export const ProductsItem = () => {
                             </div>
                             <div className="w-full">
                                 <button
-                                    className="font-bold bg-gray-600 hover:bg-gray-700 text-white rounded-md px-10 py-2 transition-colors w-full" disabled={!d.buttonEnabled} onClick={(e)=>{
+                                    className={`font-bold ${d.buttonEnabled?"bg-green-600":"bg-gray-600"} ${d.buttonEnabled??"hover:bg-green-400"} text-white rounded-md px-10 py-2 transition-colors w-full`} disabled={!d.buttonEnabled} onClick={(e)=>{
                                         e.preventDefault()
                                         window.location.href = d.hyperlink ?? "#"
                                 }}>{d.buttonText}
