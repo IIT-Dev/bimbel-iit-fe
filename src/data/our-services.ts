@@ -36,7 +36,7 @@ export const OurServices: OurServiceInterface[] = [
         buttonText: "Daftar Sekarang!",
         buttonEnabled: true,
         benefit : [
-            "Acara diselenggarakan pada Jum'at 4 Nov 2022",
+            "Acara diselenggarakan pada Kamis 3 Nov dan Jum'at 4 Nov 2022",
             "Satu kelas 7-10 orang",
             "Cocok untuk persiapan UTS",
             "Tersedia kelas offline dan online",
